@@ -25,7 +25,13 @@ main{
     justify-content: center;    /*coloca os itens no centro*/
     align-items: center;    /*alinha os itens verticalmente (um do lado do outro)*/
 }
-footer{}
+footer{
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-right: 75px;
+}
 .background-image{
     position: absolute;    /*tira o elemento do fluxo normal da página (os outros elementos agem como se ele não existisse)*/
     height: 100%;   /* largura completa (100%)*/
