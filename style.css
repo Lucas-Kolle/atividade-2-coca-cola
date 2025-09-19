@@ -4,9 +4,21 @@
     box-sizing: border-box;
 }
 body{
-    background-color: black; /* cor do fundo*/
+    background-color:red; /* cor do fundo*/
 }
-header{}
+header{
+    height: 100px;  /*largura*/
+}
+nav{
+    height: 100%;
+    display: flex;  /*coloca um item do lado do outro*/
+    align-items: center;    /*centraliza os itens verticalmente neste caso*/
+    gap: 20px;  /*espaço entre os itens*/
+    color: white;
+    margin-left: 75px;  /*marge do lado esquerdo*/
+    font-family: sans-serif;
+        /**/    
+}
 main{}
 footer{}
 .background-image{
