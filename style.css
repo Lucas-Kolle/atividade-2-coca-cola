@@ -4,8 +4,17 @@
     box-sizing: border-box;
 }
 body{
-    background-color: black;
+    background-color: black; /* cor do fundo*/
 }
 header{}
 main{}
 footer{}
+.background-image{
+    position: absolute;    /*tira o elemento do fluxo normal da página (os outros elementos agem como se ele não existisse)*/
+    height: 100%;   /* largura completa (100%)*/
+    width: 100%;    /* altura complet (100%)*/
+    top:0; left:0; right:0; bottom:0;   /*posiciona o elemento (precisa do position :absolute;)*/
+    margin: auto;
+    opacity: 0.5;   /*transparencia do(s) intem(s)*/
+    z-index:-1;     /*trás um item pra frente ou leva pra trás*/
+}
