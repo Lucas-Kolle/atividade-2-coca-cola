@@ -17,9 +17,14 @@ nav{
     color: white;
     margin-left: 75px;  /*marge do lado esquerdo*/
     font-family: sans-serif;
-        /**/    
+    cursor: pointer;    /*muda o cursor (parece que da pra clicar)*/    
 }
-main{}
+main{
+    flex-grow: 1;   /*expande o máximo que pode o item */
+    display: flex; /*coloca um item do lado do outro*/  
+    justify-content: center;    /*coloca os itens no centro*/
+    align-items: center;    /*alinha os itens verticalmente (um do lado do outro)*/
+}
 footer{}
 .background-image{
     position: absolute;    /*tira o elemento do fluxo normal da página (os outros elementos agem como se ele não existisse)*/
