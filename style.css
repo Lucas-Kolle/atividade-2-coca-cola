@@ -7,7 +7,7 @@ body{
     background-color:red; /* cor do fundo*/
 }
 header{
-    height: 100px;  /*largura */
+    height: 100px;  /*altura*/
 }
 nav{
     height: 100%;
@@ -34,8 +34,8 @@ footer{
 }
 .background-image{
     position: absolute;    /*tira o elemento do fluxo normal da página (os outros elementos agem como se ele não existisse)*/
-    height: 100%;   /* largura completa (100%)*/
-    width: 100%;    /* altura complet (100%)*/
+    height: 100%;   /* altura completa (100%)*/
+    width: 100%;    /* largura complet (100%)*/
     top:0; left:0; right:0; bottom:0;   /*posiciona o elemento (precisa do position :absolute;)*/
     margin: auto;
     opacity: 0.5;   /*transparencia do(s) intem(s)*/
@@ -44,17 +44,17 @@ footer{
 .content-text{
     position: absolute;
     color: #fff;
-    font-size: 2.25rem;
+    font-size: 2.25rem;    /*significa: "deixe o tamanho da fonte 2.25 vezes maior do que o tamanho da fonte base do documento".*/
     width: 212px;
-    transform: translateX(-100%);
-    text-align: end;
+    transform: translateX(-100%);   /*translateX() é uma função que move um elemento ao longo do eixo X (horizontal).*/
+    text-align:end;
     margin-right: 24px;
 }
 .content-image{
     height: 80vh;
     filter: drop-shadow(0px 200px 20px #0006);
 }
-@media (max-width:768px){
+@media (max-width:768px){ /*Responsividade (largura máxima até 768px seguir a seguinte formatação)*/
     header nav{ 
       margin-left:25px; 
     }
